@@ -2,7 +2,7 @@
 > a study on emergent behavior of simple force controlled agents
 
 This is a small showcase of steering behaviors realized in python with pygame. 
-It was inspired by Daniel Schiffman's "Autonomous Agents and Steering - The Nature of Code" [https://www.youtube.com/watch?v=JIz2L4tn5kM] which is in turnbased on Craig Reynolds article on "Steering Behaviors For Autonomous Characters" [http://www.red3d.com/cwr/steer/]
+It was inspired by Daniel Schiffman's "Autonomous Agents and Steering - The Nature of Code" [https://www.youtube.com/watch?v=JIz2L4tn5kM] and Craig Reynolds article on "Steering Behaviors For Autonomous Characters" [http://www.red3d.com/cwr/steer/]
 
 ## Prerequisites
 
