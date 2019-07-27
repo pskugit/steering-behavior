@@ -23,7 +23,7 @@ class Agent(object):
     def  __init__(self,position):
         self.position = np.array(position, dtype=float)
         self.origin = np.array(position)
-        self.size = 15
+        self.size = 12
 
         self.color = (random.random() * 128, random.random() * 128, random.random() * 128)
         self.velocity = np.array((random.random()*2 -1,random.random()*2 -1))
@@ -296,7 +296,7 @@ class Agent(object):
         cohesionforce, separationforce, alignmentforce = self.flock(agents)
 
         #weigh and apply forces
-        self.applyForce(fleeforce)
+        self.applyForce(fleeforce*2)
         self.applyForce(alignmentforce*alignment_weight)
         self.applyForce(separationforce*separation_weight)
         self.applyForce(cohesionforce*cohesion_weight)
